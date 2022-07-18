@@ -67,27 +67,12 @@ const float HALL_H = 00.00;
  
 int main () {
    	
-	int childernCount;
-	int adultCount;
-	float totalCostAdults;
-	float totalCostChild;
-	float totalFoodCost;
-	float taxedAmount;
-	float gratuityAmount;
-	float totalBill;
-	float balanceDue;
-	char hallChoice; 
-	char mealType;
-	char CspeedyPayment;
-	char weekend;
-	float FspeedyPayment;
-	float childMealCost;
-	string weekendResult;
-	string mealPlan;
-	string hallPlan;
-	float hallCost;
-	float mealCost;
-	float weekendCost;
+	int childernCount, adultCount;
+	float totalCostAdults,totalCostChild,totalFoodCost,taxedAmount, gratuityAmount,totalBill,balanceDue, FspeedyPayment,childMealCost,hallCost, mealCost, weekendCost;
+	char hallChoice, mealType, CspeedyPayment, weekend;
+	string weekendResult, mealPlan, hallPlan;
+	
+
 
    	//Getting User Input along with their hall choice, meal type, speed payment, and weekend reservation. 
   	userInput(childernCount,adultCount);
